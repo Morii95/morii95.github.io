@@ -1,0 +1,85 @@
+html {
+    background: #d8d8d8;
+}
+
+button {
+    background: none;
+    border: 0px;
+    font-weight: bold;
+
+}
+.navbar {
+    margin: 0;
+    padding: 0;
+    padding-top: 40px;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+}
+
+.Logo {
+    padding-left: 20px;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.header-container {
+    padding-right: 0;
+    display: flex;
+    width: 75%;
+    align-items: flex-end;
+    padding-left:130px;
+}
+
+.nav-container {
+    background: rgba(255, 255, 255, 0.5);
+    padding-right: 40px;
+    border-radius: 50px;
+}
+
+
+.nav-buttons {
+    padding: 25px;
+    font-size: 15px;
+}
+
+.buttons:hover {
+    color: #838282;
+}
+
+.Shop-btn {
+    background: rgba(255, 196, 0, 0.25);
+    border-radius: 40px;
+    margin-left: 60px;
+    padding-top: 20px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+a {
+text-decoration: none;
+color: black;
+}
+
+footer {
+    background: rgb(216, 216, 216);
+    background: linear-gradient(180deg, rgba(216, 216, 216, 1) 0%, rgba(184, 184, 184, 1) 100%);
+}
+
+.footer-list {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+.footer-block {
+    padding: 10px;
+}
+
+.footer-block:hover {
+    color: #555;
+}
